@@ -1,21 +1,18 @@
 # API Documentation
 
-## Overview
+## Descripción General
 
-This API provides user authentication with JSON Web Tokens (JWT) and password encryption using Bcrypt. It allows users to create, view, modify, and delete their profiles, as well as create, view, modify, and delete posts. Additionally, users can mark posts as favorites.
+Esta API ofrece autenticación de usuarios mediante JSON Web Tokens (JWT) y cifrado de contraseñas utilizando Bcrypt. Permite a los usuarios crear, visualizar, modificar y eliminar sus perfiles, así como crear, ver, modificar y eliminar publicaciones. Además, los usuarios pueden marcar publicaciones como favoritas.
 
-## Technologies Used
+## Tecnologías Utilizadas
 
 - Node.js
 - Express
 - Sequelize
 - Bcrypt
 - JSON Web Tokens (JWT)
-- PostgreSQL 
+- PostgreSQL
 
-## Diagram
-![Diagram](./src/assets/authentication.png)
-
-## Authentication
-You can generate your `TOKEN_SECRET` with the Node command: 
+## Autenticación
+Puedes generar tu `TOKEN_SECRET` con el comando de Node:
 * require('crypto').randomBytes(64).toString('hex')
